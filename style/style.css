@@ -1,0 +1,85 @@
+
+/* Limits background image to splash screen only  */
+#bgsplash {
+  background-image: url('/Assets/stickbg.jpg');
+  position: fixed;
+
+}
+
+body: {
+  font-family: garamond;
+}
+
+h1 {
+  text-align: center;
+  font-family: garamond;
+  font-size: 60px;
+  position: fixed;
+  padding-left: 25%;
+}
+
+h2 {
+  padding-left: 40px;
+}
+
+.start {
+  align-content: center;
+  position: fixed;
+  padding-left: 45%;
+  padding-top: 10%;
+  z-index: 1;
+}
+/* Main area where text and question buttons go  */
+.container {
+width: 30%;
+height: 50%;
+padding-left: 25%;
+position: absolute;
+font-size: 20px;
+}
+/*Area where Stick is shown  */
+.stickdisplay {
+position: absolute;
+}
+
+button {
+height: 100px;
+width: 200px;
+background-color: red;
+font-size: 70px;
+color: white;
+}
+
+/* Buttons for choices  */
+.buttonchoice {
+  height: 125px;
+  width: 600px;
+  font-size: 50px;
+  background-color: yellow;
+}
+
+/* Start over Button  */
+.restart {
+  width: 250px;
+  height: 200px;
+}
+
+footer {
+  position: fixed;
+  padding-left: 85%;
+  padding-top: 45%;
+}
+
+/* Adjusting Link Settings  */
+a:link {
+  text-decoration: none;
+  color:white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
