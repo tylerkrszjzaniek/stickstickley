@@ -11,11 +11,13 @@ Be careful as there is only one correct choice! Have fun!
 #### Updates:
 4/14/18:
 + Project started
-+ Simple images and choices added
++ Simple images and all choices added
 
 #### Changes to come at a later date:
-+ More detailed images
++ More detailed images and additional icons
 + Music
 + Style improvements and cleaner code
++ Mobile support
++ JS inclusion
 
 ###### All assets and code created by Tyler Krszjzaniek in 2018
