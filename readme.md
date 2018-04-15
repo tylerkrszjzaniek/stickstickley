@@ -12,6 +12,7 @@ Be careful as there is only one correct choice! Have fun!
 4/14/18:
 + Project started
 + Simple images and all choices added
++ *Note: Project only works in desktop full-window mode at the moment*
 
 #### Changes to come at a later date:
 + More detailed images and additional icons
