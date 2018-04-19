@@ -6,6 +6,8 @@
 
 Be careful as there is only one correct choice! Have fun!
 
+[You can play the game by clicking here!](https://stick-stickley.netlify.com/)
+
 ![Stick Stickley!](/Assets/stick.jpg)
 
 #### Updates:
