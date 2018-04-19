@@ -1,4 +1,4 @@
-# A Date with Stick Stickley v. 0.1
+# A Date with Stick Stickley v. 1.1
 
 #### Hello and welcome to my first independent project.
 
@@ -14,9 +14,12 @@ Be careful as there is only one correct choice! Have fun!
 + Simple images and all choices added
 + *Note: Project only works in desktop full-window mode at the moment*
 
+4/18/18:
++ Improved styling
++ Added music
+
 #### Changes to come at a later date:
 + More detailed images and additional icons
-+ Music
 + Style improvements and cleaner code
 + Mobile support
 + JS inclusion
