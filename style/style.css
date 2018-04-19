@@ -160,3 +160,70 @@ a:hover {
   margin-left: 415%;
   margin-top: 150%;
 }
+
+
+@media only screen and (max-width: 736px) {
+  #bgsplash {
+    width: 45%;
+    background-image: url("/assets/stickbgmobile.jpg");
+  }
+
+  .start {
+    margin-left: 50%;
+  }
+
+  h1 {
+    font-size: 2em;
+    width: 110%;
+    margin-left: 50%;
+    z-index: 1;
+  }
+
+  footer {
+    margin-left: 59%;
+    width: 100%;
+    margin-top: 25%;
+  }
+
+  h2 {
+    font-size: 2em;
+    margin-top: 1%;
+    position: absolute;
+    z-index: 1;
+  }
+
+.buttonchoice {
+  width: 250%;
+  height: 3em;
+  font-size: 1em;
+  margin-left: -140%;
+
+}
+
+.container {
+  margin-right: 10%;
+  margin-left: 60%;
+  position: absolute;
+  margin-top: 25%;
+}
+
+img {
+  margin-left: -20%;
+  margin-top: 10%;
+}
+
+p {
+  margin-top: -45%;
+  width: 105%;
+  position: absolute;
+}
+
+.restart {
+  margin-left: -100%;
+  margin-top: 60%;
+}
+
+
+
+}
+}
