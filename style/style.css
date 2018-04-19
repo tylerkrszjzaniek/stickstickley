@@ -2,7 +2,17 @@
 /* Limits background image to splash screen only  */
 #bgsplash {
   background-image: url('/Assets/stickbg.jpg');
-  position: fixed;
+  background-repeat: none;
+  position: absolute;
+
+
+}
+
+#bgsplash2 {
+  background-image: url('/Assets/stickbg2.jpg');
+  background-repeat: none;
+  position: absolute;
+
 
 }
 
@@ -14,29 +24,44 @@ h1 {
   text-align: center;
   font-family: garamond;
   font-size: 60px;
-  position: fixed;
-  padding-left: 25%;
+  /*position: fixed;*/
+  margin-left: 50%;
+  width: 100%;
 }
 
 h2 {
-  padding-left: 300px;
+  margin-left: 5%;
 }
 h3 {
   padding-left: 45%;
 }
-
+/* Splash screen start */
 .start {
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    /* font-size: 70px; */
+    color: white;
+    max-height: 10vh;
+    max-width: 30vw;
+    font-size: 5vw;
+    align-content: center;
+    z-index: 1;
+    margin-left: 80%;
+}
+
+/*.start {
   align-content: center;
   position: fixed;
   padding-left: 45%;
   padding-top: 10%;
   z-index: 1;
-}
+} */
 /* Main area where text and question buttons go  */
 .container {
 width: 30%;
 height: 50%;
-padding-left: 25%;
+margin-left: 25%;
 position: absolute;
 font-size: 20px;
 }
@@ -68,9 +93,10 @@ color: white;
 }
 
 footer {
-  position: fixed;
-  padding-left: 85%;
-  padding-top: 45%;
+  position: absolute;
+  margin-left: 175%;
+  margin-top: 60%;
+  width: 25%
 }
 
 /* Adjusting Link Settings  */
@@ -85,4 +111,52 @@ a:visited {
 
 a:hover {
   color: blue;
+}
+
+#winhead {
+  text-align: center;
+  font-family: garamond;
+  font-size: 60px;
+  /*position: fixed;*/
+  margin-left: 200%;
+  width: 100%;
+  position: absolute;
+}
+
+#winhead2 {
+  text-align: center;
+  font-family: garamond;
+  /*position: fixed;*/
+  margin-left: 210%;
+  margin-top: 55%;
+  width: 200%;
+  position: absolute;
+  max-height: 2em;
+}
+
+#winhead3 {
+  text-align: center;
+  font-family: garamond;
+  font-size: 40px;
+  /*position: fixed;*/
+  margin-left: 110%;
+  margin-top: 125%;
+  width: 300%;
+  position: absolute;
+}
+
+/* Restart button  */
+#startover {
+  height: 100px;
+  width: 200px;
+  background-color: red;
+  /* font-size: 70px; */
+  color: white;
+  max-height: 10vh;
+  max-width: 30vw;
+  font-size: 5vw;
+  align-content: center;
+  z-index: 1;
+  margin-left: 415%;
+  margin-top: 150%;
 }
